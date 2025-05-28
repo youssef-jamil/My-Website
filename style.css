@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"); */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(234, 234, 228);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.navbar a {
+  color: rgb(39, 0, 131);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+}
+.navbar a.active {
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu i {
+  font-size: 1.5em;
+  color: rgb(39, 0, 131);
+  padding-left: 30px;
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.intro-myself {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  gap: 50px;
+  background-image: url("Image/my-photo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.intro-myself .image-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+.intro-myself .text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.intro-myself img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro-myself h2 {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.intro-myself h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(179, 4, 4);
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.intro-myself h3 {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+
+.intro-myself .btn {
+  color: black;
+  background: rgb(179, 4, 4);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.intro-myself .btn:hover {
+  background: rgb(0, 0, 0);
+  transform: scale(1.1);
+  color: white;
+}
+.social-icons a {
+  color: rgb(0, 0, 0);
+  font-size: 1.7em;
+  padding-right: 30px;
+}
